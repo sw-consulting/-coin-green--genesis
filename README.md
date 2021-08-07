@@ -6,6 +6,15 @@
 * [Dogecoin Testnet](https://github.com/Dirrot/dogecoin-testnet)
 * [Genesis block generator](https://github.com/bitflate/GenesisH0)
   * which further required [get-pip](https://github.com/pypa/get-pip) because of outdated version of Python
+* BerkleyDB 5.1 (required)
+```
+    mkdir /bootstrap && cd /bootstrap && \
+    wget http://download.oracle.com/berkeley-db/db-5.1.29.NC.tar.gz && \
+    tar xvfz db-5.1.29.NC.tar.gz && cd db-5.1.29.NC && \
+    sed -i.old 's/__atomic_compare_exchange/__atomic_compare_exchange_db/' src/dbinc/atomic.h && \
+    cd build_unix && ../dist/configure --enable-cxx --disable-shared --with-pic --prefix=$BDB_PREFIX && \
+    make && make install
+```
 
 ## Genesis block
 ```
