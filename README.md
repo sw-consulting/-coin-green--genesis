@@ -6,7 +6,8 @@
 * [Dogecoin Testnet](https://github.com/Dirrot/dogecoin-testnet)
 * [Genesis block generator](https://github.com/bitflate/GenesisH0)
   * which further required [get-pip](https://github.com/pypa/get-pip) because of outdated version of Python
-* BerkleyDB 5.1 (required)
+
+## BerkleyDB 5.1 (mandatory dependency)
 ```
     mkdir /bootstrap && cd /bootstrap && \
     wget http://download.oracle.com/berkeley-db/db-5.1.29.NC.tar.gz && \
