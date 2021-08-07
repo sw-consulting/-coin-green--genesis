@@ -1,6 +1,6 @@
 # CoinGreen Genesis Reference
 
-Refernces to the bits of information that was used to create CoinGreen
+References to the bits of information that was used to create CoinGreen
 
 [How To Clone Scrypt Based Altcoins for Fun and Profit](https://gist.github.com/mak2014/7ba2c9ec3a5ff54f9913094641e520bb)
 
