@@ -2,7 +2,7 @@
 
 ## Getting started with experimental CoinGreen core
 
-1. Download CoinGreen experimental GUI at https://github.com/maxirmx/CoinGreen/suites/3460388209/artifacts/82237553
+1. Download CoinGreen experimental GUI at https://github.com/maxirmx/CoinGreen/suites/3461082751/artifacts/82257166
 2. Extract coingreen GUI from the archive
 3. Start coingreen.exe.  Upon startup the application will ask for CoinGreen data folder.  Select something that you consider reasonably safe from accident deletion.
 4. At CoinGreen GUI menu select Help\Debug window\Console
