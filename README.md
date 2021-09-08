@@ -2,7 +2,7 @@
 
 ## Getting started with experimental CoinGreen core
 
-1. Download CoinGreen experimental binaries at https://github.com/coin-green/CoinGreen/releases/tag/v.2.0.0.1
+1. Download CoinGreen experimental binaries at https://github.com/coin-green/CoinGreen/releases/tag/v2.0.0.2
 2. For Windows GUI application extract coingreen-gui.exe from windows-binaries
 3. Start coingreen-gui.exe.  Upon startup the application will ask for CoinGreen data folder.  Select something that you consider reasonably safe from accident deletion.
 4. At CoinGreen GUI menu select Help\Debug window\Console
