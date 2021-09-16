@@ -1,13 +1,13 @@
 # CoinGreen Reference
 
-## Getting started with experimental CoinGreen core
+## Getting started with experimental CoinGreen GUI
 
-1. Download CoinGreen experimental binaries at https://github.com/coin-green/CoinGreen/releases/tag/v2.0.0.2
-2. For Windows GUI application extract coingreen-gui.exe from windows-binaries
-3. Start coingreen-gui.exe.  Upon startup the application will ask for CoinGreen data folder.  Select something that you consider reasonably safe from accident deletion.
-4. At CoinGreen GUI menu select Help\Debug window\Console
-5. Enter the following command:  addnode '3.227.12.32:22556' 'add'
-6. Wait 30 seconds.  Enter the following command:  getinfo      If result says "connections": 1   (or more then 1)   you are connected to the CoinGreen network
-7. If you want to generate some coins enter:   generate 1
-8. You may enter help to see other available commands 
+1. Download CoinGreen experimental binaries at https://github.com/coin-green/CoinGreen/releases/tag/v2.0.0.3
+2. Extractfiles from windows-binaries
+3. Start coingreen.bat. This batch file will start CoinGreen GUI and connect it to network nodes.
+4. Upon the first startup the application will ask for CoinGreen data folder.  Select something that you consider reasonably safe from accident deletion.
+Enjoy its minimalistic functionality :)
 
+coingreen-cli and coingreen-tx are bitcoing command-line utilities adopted for coingreen
+You may find relevant help and manuals elesewhere.
+Command-line functions are also available from the GUI if you select "Help/Debug window" menu item and then follow to console tab.
