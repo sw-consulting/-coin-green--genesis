@@ -15,9 +15,11 @@ Command-line functions are also available from the GUI if you select "Help/Debug
 ## Getting started with experimental CoinGreen network node
 
 1. Ensure that inbound\outbound traffic is allowed for TCP port 34558
-2. ( ... libraries ...)
-3. Create user _coingreen_ with primary group _coingreen_  
-4. Download CoinGreen ubuntu-binaries.zip at https://github.com/coin-green/CoinGreen/releases/tag/v2.0.0.3
+2. Install libraries:
+    -- sudo apt-get update
+    -- sudo apt-get install libboost-system-dev libboost-filesystem-dev libboost-chrono-dev libboost-program-options-dev libboost-test-dev libboost-thread-dev libevent-dev
+4. Create user _coingreen_ with primary group _coingreen_  
+5. Download CoinGreen ubuntu-binaries.zip at https://github.com/coin-green/CoinGreen/releases/tag/v2.0.0.3
 6. Extract files to /home/coingreen
 7. (rpc user/password)
 8. (configuration file)
