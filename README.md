@@ -40,3 +40,12 @@ The password created will be RPC user password for user _coingreen_ and can be u
 
 _coingreen-cli_ and _coingreen-tx_ are bitcoing command-line utilities adopted for coingreen
 You may find relevant help and manuals elesewhere.
+
+11. Uncomment and set the following properties in configuration file:
+_bind=<node ip address>:34558_       
+If you are using AWS pls note that it provides two ip addresses - external and internal.  **Internal** address shall be used in this property.
+
+_addnode=<the other node 1 ip address>:34558_
+_addnode=<the other node 2 ip address>:34558_
+
+These two other nodes are required for startup only. More interconnection will be established automatically.
