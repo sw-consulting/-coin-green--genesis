@@ -1,6 +1,6 @@
 {
     "enabled": false,
-    "coin": "litecoin.json",
+    "coin": "dogecoin.json",
 
     "address": "n4jSe18kZMCdGcZqaYprShXW6EH1wivUK1",
 
@@ -15,17 +15,14 @@
         "minimumPayment": 70,
         "daemon": {
             "host": "127.0.0.1",
-            "port": 19332,
+            "port": 34557,
             "user": "testuser",
             "password": "testpass"
         }
     },
 
     "ports": {
-        "3008": {
-            "diff": 8
-        },
-        "3032": {
+        "34561": {
             "diff": 32,
             "varDiff": {
                 "minDiff": 8,
@@ -34,16 +31,13 @@
                 "retargetTime": 90,
                 "variancePercent": 30
             }
-        },
-        "3256": {
-            "diff": 256
         }
     },
 
     "daemons": [
         {
             "host": "127.0.0.1",
-            "port": 19332,
+            "port": 34557,
             "user": "testuser",
             "password": "testpass"
         }
@@ -52,7 +46,7 @@
     "p2p": {
         "enabled": true,
         "host": "127.0.0.1",
-        "port": 19333,
+        "port": 34558,
         "disableTransactions": true
     },
 
