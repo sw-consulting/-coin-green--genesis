@@ -1,6 +1,6 @@
 {
-    "enabled": false,
-    "coin": "dogecoin.json",
+    "enabled": true,
+    "coin": "coingreen.json",
 
     "address": "n4jSe18kZMCdGcZqaYprShXW6EH1wivUK1",
 
