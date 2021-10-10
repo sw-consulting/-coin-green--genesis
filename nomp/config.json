@@ -31,7 +31,8 @@
 
     "website": {
         "enabled": true,
-        "host": "0.0.0.0",
+        "host": "172.26.1.150",
+	"stratumHost":"35.183.50.53",
         "port": 8080,
         "stats": {
             "updateInterval": 60,

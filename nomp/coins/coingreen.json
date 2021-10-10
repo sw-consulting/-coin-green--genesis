@@ -2,6 +2,6 @@
     "name": "CoinGreen",
     "symbol": "CG",
     "algorithm": "scrypt",
-    "peerMagic": "d0c0c0c0",
-    "peerMagicTestnet": "fdc1b7dc"
+    "peerMagic": "c0c0c0c0",
+    "peerMagicTestnet": "fcc1b7dc"
 }

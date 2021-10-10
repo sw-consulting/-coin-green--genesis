@@ -2,11 +2,11 @@
     "enabled": true,
     "coin": "coingreen.json",
 
-    "address": "n4jSe18kZMCdGcZqaYprShXW6EH1wivUK1",
+    "address": "DGFAcy24tWjVgd6bARCdDYuuzue8EMs56c",
 
     "rewardRecipients": {
-        "n37vuNFkXfk15uFnGoVyHZ6PYQxppD3QqK": 1.5,
-        "22851477d63a085dbc2398c8430af1c09e7343f6": 0.1
+        "D8V6a71DXgTiNEkYfpDnZH9wFfomHeKjym": 1,
+        "DHKk6PKUY76KHDMJB5cL2A1JAmajzEMxjF": 1
     },
 
     "paymentProcessing": {
@@ -16,16 +16,16 @@
         "daemon": {
             "host": "127.0.0.1",
             "port": 34557,
-            "user": "testuser",
-            "password": "testpass"
+            "user": "coingreen",
+            "password": "I4w7PVK3kFE1stBMNg_sskat_3Q1FOM48Wx18xfXaEw="
         }
     },
 
     "ports": {
         "34561": {
-            "diff": 32,
+            "diff": 8,
             "varDiff": {
-                "minDiff": 8,
+                "minDiff": 1,
                 "maxDiff": 512,
                 "targetTime": 15,
                 "retargetTime": 90,
@@ -38,8 +38,8 @@
         {
             "host": "127.0.0.1",
             "port": 34557,
-            "user": "testuser",
-            "password": "testpass"
+            "user": "coingreen",
+            "password": "I4w7PVK3kFE1stBMNg_sskat_3Q1FOM48Wx18xfXaEw="
         }
     ],
 
