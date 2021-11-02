@@ -2,7 +2,7 @@
 
 ## Getting started with experimental CoinGreen GUI
 
-1. Download CoinGreen windows-binaries.zip at https://github.com/coin-green/CoinGreen/releases/tag/v2.0.0.3
+1. Download CoinGreen windows-binaries.zip at https://github.com/coin-green/CoinGreen/releases/tag/v2.0.0.5
 2. Extract files to any appropriate folder
 3. Execute coingreen.bat. This batch file will start CoinGreen GUI and connect it to network nodes.
 4. Upon the first startup the application will ask for CoinGreen data folder.  Select something that you consider reasonably safe from accident deletion.
@@ -22,7 +22,7 @@ Command-line functions are also available from the GUI if you select "Help/Debug
 4. Create user _coingreen_ with primary group _coingreen_  
 6. Add _coingreen_ user to _adm_ group
 **All further steps shall be executed by coingreen user.**
-7. Download CoinGreen ubuntu-binaries.zip at https://github.com/coin-green/CoinGreen/releases/tag/v2.0.0.3
+7. Download CoinGreen ubuntu-binaries.zip at https://github.com/coin-green/CoinGreen/releases/tag/v2.0.0.5
 8. Extract files to _/home/coingreen_. 
 Check/set execution permissions (_chmod +x_) to _coingreend_, _coingreen-cli_, _coingree-tx_, _start.sh_, _util/rpcuser.py_
 9. Execute _util/rpcuser.py coingreen_ 
