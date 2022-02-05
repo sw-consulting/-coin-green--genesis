@@ -1,1 +1,1 @@
-ps -ax | grep 'minerd'
+ps -ax | grep 'minerd' | grep -v 'grep'
