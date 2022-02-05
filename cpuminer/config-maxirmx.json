@@ -1,0 +1,11 @@
+{
+	"url" : "http://127.0.0.1:34557/",
+	"user" : "coingreen",
+	"pass" : "I4w7PVK3kFE1stBMNg_sskat_3Q1FOM48Wx18xfXaEw=",
+        "coinbase-addr": "DTjNXq6evTztRAdRD6mqfGftLX359fixkQ",
+
+	"algo" : "scrypt",
+	"threads" : "2",
+
+        "quiet" : true
+}
