@@ -5,7 +5,7 @@
         "coinbase-addr":"D8V6a71DXgTiNEkYfpDnZH9wFfomHeKjym",
 
 	"algo" : "scrypt",
-	"threads" : "2",
+	"threads" : "4",
 
         "quiet" : true
 }
